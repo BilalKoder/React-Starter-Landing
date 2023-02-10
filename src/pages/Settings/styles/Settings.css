@@ -1,0 +1,76 @@
+.divider {
+  width: calc(100vw - 15rem);
+  background-color: #d3d2d2;
+  height: 1px;
+}
+
+.settings-container {
+  padding: 0rem 1rem 1rem 1rem;
+  /* padding: 0.5rem;
+  padding-left: 2rem; */
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 21rem;
+}
+
+.light-dark {
+  color: rgba(117, 132, 159, 1);
+  font-size: 0.9rem;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  font-weight: 500;
+}
+
+.account-settings-input {
+  border: 1.5px solid var(--blue);
+  padding: 0.4rem 0.3rem;
+  outline: none;
+  border-radius: 4px;
+  color: var(--black);
+  font-size: 0.85rem;
+}
+
+.save-btn {
+  padding: 0.5rem;
+  background-color: var(--blue);
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: var(--white);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.email-verification-div {
+  padding: 0.3rem;
+  border-radius: 2px;
+  width: 100%;
+  background-color: rgba(33, 102, 205, 13%);
+  display: flex;
+  gap: 0.2rem;
+}
+
+.link.blue {
+  color: var(--blue);
+}

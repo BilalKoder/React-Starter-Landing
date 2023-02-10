@@ -1,0 +1,16 @@
+.error-container {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.try-again-btn {
+  padding: 0.4rem;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  font-size: 0.9rem;
+  width: 10rem;
+}

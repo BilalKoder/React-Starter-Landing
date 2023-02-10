@@ -1,0 +1,63 @@
+.completed-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+}
+
+.prompt-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+}
+
+.show-prompt-btn {
+  /* background-color: var(--blue); */
+  padding: 0.1rem;
+  width: 2rem;
+  color: var(--blue);
+  background-color: transparent;
+  height: 2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  justify-self: center;
+}
+
+.show-more-btn {
+  margin-top: 2.5rem;
+  width: 10rem;
+  align-self: flex-end;
+  padding: 0.3rem;
+  background-color: var(--blue);
+  bottom: 1rem;
+  /* border-color: var(--blue); */
+  border-radius: 2px;
+  color: var(--white);
+  font-size: 1rem;
+  outline: none;
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  /* margin-right: 9rem; */
+  position: relative;
+  right: 4rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .show-more-btn {
+    right: 5rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .show-more-btn {
+    right: 6rem;
+  }
+}

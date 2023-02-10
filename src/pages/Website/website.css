@@ -1,0 +1,184 @@
+.page-api {
+  background-color: #f7f7f8;
+}
+.bg-fg-3 {
+  background-color: #efeff0;
+}
+
+.btn-padded.btn-dark {
+  color: #fff !important;
+  /* color: rgba(var(--bg), 1) !important; */
+  background-color: #000;
+  /* background-color: rgba(var(--fg), 1); */
+}
+.btn-padded.btn-dark:hover {
+  color: #fff !important;
+  color: rgba(var(--bg), 1) !important;
+  background-color: rgba(0, 0, 0, 0.875);
+  background-color: rgba(var(--fg), 0.875);
+  opacity: 1 !important;
+}
+
+.page-api pre.language-python,
+.page-microsoft-for-startups pre.language-python,
+.page-contact-sales pre.language-python {
+  padding: 0;
+  background-color: #191927;
+  border-radius: 6px;
+}
+
+.page-api pre.language-python,
+.page-microsoft-for-startups pre.language-python,
+.page-contact-sales pre.language-python {
+  padding: 0;
+  background-color: #191927;
+  border-radius: 6px;
+}
+
+.page-api pre.language-python,
+.page-api pre.language-python .punctuation,
+.page-api pre.language-python .operator,
+.page-microsoft-for-startups pre.language-python,
+.page-microsoft-for-startups pre.language-python .punctuation,
+.page-microsoft-for-startups pre.language-python .operator,
+.page-contact-sales pre.language-python,
+.page-contact-sales pre.language-python .punctuation,
+.page-contact-sales pre.language-python .operator {
+  color: white;
+}
+
+.page-api pre.language-python .string,
+.page-microsoft-for-startups pre.language-python .string,
+.page-contact-sales pre.language-python .string {
+  color: #009c72;
+}
+
+.page-api pre.language-python .triple-quoted-string,
+.page-microsoft-for-startups pre.language-python .triple-quoted-string,
+.page-contact-sales pre.language-python .triple-quoted-string {
+  color: #a3a3a8;
+}
+
+.page-api pre.language-python code,
+.page-microsoft-for-startups pre.language-python code,
+.page-contact-sales pre.language-python code {
+  display: block;
+  white-space: pre-wrap;
+}
+.medium-xsmall-copy {
+  font-family: ColfaxAI, Helvetica, sans-serif;
+  font-size: 0.8333333333rem;
+  font-weight: unset;
+  letter-spacing: unset;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+  border-radius: 4px;
+}
+pre code {
+  font-size: 1em;
+  background-color: transparent !important;
+  color: inherit;
+  padding: 0;
+}
+
+.pricess {
+  background: linear-gradient(
+    180deg,
+    rgba(247, 247, 248, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.accordion {
+  border-top: 1px solid #00000017;
+}
+.bg-cover {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.narrow-gutters {
+  margin: 0 auto;
+}
+
+.bg-fg-5 {
+  background-color: rgba(0, 0, 0, 0.05);
+  /* background-color: rgba(var(--fg), 0.05); */
+}
+
+.pr-2\/3.py-2\/3.font-bold {
+  font-size: 16.666px;
+}
+
+.page-api .mono-17,
+.page-microsoft-for-startups .mono-17,
+.page-contact-sales .mono-17 {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+  font-size: 16.67px;
+  line-height: 1.39;
+  font-weight: 700;
+}
+.code-block {
+  background-color: #202123;
+  border-radius: 6px;
+  display: block;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+  font-size: 15px;
+  line-height: 21px;
+  padding: 22px 25px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.font-monospace {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace !important;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+  border-radius: 4px;
+}
+
+/* :root {
+  --fg: 0, 0, 0;
+  --bg: 255, 255, 255;
+  --white: #fff;
+  --ghost: #f7f7f7;
+  --ivory: #f6f6f4;
+  --light-wash: #f7fbfb;
+  --medium-wash: #eff7f8;
+  --dark-wash: #e6f3f3;
+  --light-warm-gray: #eeedee;
+  --dark-warm-gray: #a3acb0;
+  --cool-gray-0\.5: #edeef1;
+  --cool-gray-1: #c5c5d2;
+  --cool-gray-1\.5: #aeaebb;
+  --cool-gray-2: #8e8ea0;
+  --cool-gray-3: #6e6e80;
+  --cool-gray-4: #404452;
+  --light-black: #191927;
+  --medium-black: #0e0e1a;
+  --black: #000;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1280px;
+  --sans-serif: ColfaxAI, Helvetica, sans-serif;
+  --serif: Charter, Georgia, serif;
+  --monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+  --icons: IconsAI;
+  --v: 1.4rem;
+  --indent: 1.25em;
+} */

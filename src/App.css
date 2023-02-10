@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Lato", sans-serif; */
+}
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  /* font-family: "Lato", sans-serif; */
+  color: rgba(0, 0, 0, 0.95);
+}
+
+:root {
+  --white: rgba(255, 255, 255, 0.96);
+  --secondary-color: #6c4ab6;
+  --black: rgba(0, 0, 0, 0.95);
+  --green: #11a683;
+  --red: #ff7d7d;
+  --blue: #2166cd;
+  /*  */
+  --main-color-hover: rgb(104, 117, 217, 0.2);
+  --track-color: #e9effa;
+  /* Default mark color*/
+  --mark-color: #aaaaaa;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+  line-height: 44px;
+}
+.bg-fg-3 {
+  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(var(--fg), 0.03);
+}

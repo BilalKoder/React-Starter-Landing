@@ -1,0 +1,162 @@
+.subscription-container {
+  display: flex;
+  width: calc(100vw - 13rem);
+  height: 600px;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 1rem;
+  width: auto;
+  padding-top: 1.5rem;
+}
+
+.subscription-card {
+  width: 20rem;
+  height: 25rem;
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.card-header.sl {
+  background-color: var(--blue);
+}
+
+.card-header.sb {
+  background-color: #c994df;
+}
+
+.card-header {
+  height: 2rem;
+  background-color: azure;
+}
+
+.plan-name {
+  font-weight: 300;
+  font-size: 2rem;
+  color: var(--blue);
+}
+
+.dark-light {
+  color: rgba(117, 132, 159, 1);
+}
+
+ul {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+li {
+  position: relative;
+  left: 23px;
+  margin-top: 0.4rem;
+}
+
+/* li::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -30px;
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  background-image: url("../../../assets/correctsvg.svg");
+  background-repeat: no-repeat;
+} */
+
+.continue-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 2px;
+  color: var(--white);
+}
+
+.sub-btn {
+  border-color: transparent;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.sub-btn.continue {
+  background-color: var(--blue);
+  border-radius: 2px;
+  color: var(--white);
+}
+
+.sub-btn.sales {
+  color: var(--blue);
+  border: 1.5px solid var(--blue);
+  background-color: transparent;
+  margin-top: 7.9rem;
+}
+
+.sub-info-container {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  grid-template-columns: 100% auto;
+  row-gap: 2.5rem;
+  width: 390px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1.5rem;
+}
+
+.dark-light.sm {
+  font-size: 0.85rem;
+}
+
+.info-title {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.doc-svg {
+  padding: 0.6rem 0.8rem;
+  background-color: #d176cb;
+  border-radius: 2px;
+}
+
+.linkedin-svg {
+  padding: 0.8rem 0.8rem;
+
+  background-color: #733fdc;
+  border-radius: 2px;
+}
+
+.email-svg {
+  padding: 0.8rem 0.8rem;
+
+  background-color: #1cbd84;
+  border-radius: 2px;
+}
+
+.cube-svg {
+  padding: 0.6rem 0.85rem;
+  background-color: #eb4957;
+  border-radius: 2px;
+}
+
+.terminal-svg {
+  padding: 0.6rem 0.75rem;
+  background-color: #dda66a;
+  border-radius: 2px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.sub-info-container-s {
+  display: flex;
+  gap: 1rem;
+}

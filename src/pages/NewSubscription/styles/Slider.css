@@ -1,0 +1,52 @@
+.customSlider-mark {
+  cursor: pointer;
+  top: 6px;
+  width: 1.5px;
+  height: 8px;
+}
+
+.customSlider {
+  /* max width of your slider */
+  max-width: 75%;
+  align-self: center;
+  /* Optional: Only If you want to center your slider in the page */
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.customSlider-track {
+  /* Top value to align your track to the center of your thumb */
+  top: 8px;
+  /* thickness of the track */
+  height: 4px;
+  /* default color of your track */
+  background: var(--track-color);
+  border-radius: 4px;
+}
+
+/* .customSlider-track.customSlider-track-0 {
+  /* color of the track before the thumb */
+/* background: var(--main-color);
+} */
+.customSlider-thumb {
+  cursor: pointer;
+  /*color for the thumb */
+  background: var(--blue);
+  /* shape of the thumb: circle */
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  /* remove default outline when selected */
+  outline: none;
+}
+
+.customSlider-thumb:hover {
+  box-shadow: 0 0 0 8px var(--track-color);
+}
+.customSlider-mark.customSlider-mark-before {
+  background-color: var(--blue);
+}
+
+.customSlider-mark.customSlider-mark-active {
+  background-color: aqua;
+}
